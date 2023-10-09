@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-container{
+  border: 2px solid red;
+  display: flex;
+  margin-bottom: 1rem;
+  list-style: none;
+  font-size: 1.3rem;
+  flex-wrap: wrap;
+
+  
+}
+
+.menu-item{
+ 
+  
+  flex-grow: 1;
+  border: 2px solid green;
+  padding: 0.2em 0;
+  text-align: center;
+}
+
+.menu-item > a {
+  padding: 0.3em 0.3em
+}

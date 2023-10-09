@@ -1,0 +1,29 @@
+.portrait-cv-container{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  
+}
+
+
+.img-container{
+  width: 100%;
+  border: 2px solid red;
+}
+
+.portrait{
+  width: 100%;
+
+}
+
+.cv-summary{
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  border: 2PX solid green;
+
+}
+
+.cv-summary > h2{
+  margin-bottom:0.5EM ;
+}
