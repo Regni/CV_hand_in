@@ -37,6 +37,10 @@ body{
   text-decoration: none;
 }
 
+.active{
+  color: white;
+  text-decoration: underline;
+}
 
 /* footer and links */
 footer{
