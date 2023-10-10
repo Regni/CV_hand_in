@@ -18,15 +18,18 @@
 }
 
 .cv-summary{
+  font-size: 1.2rem;
   background-color: #fff;
   text-align: center;
   width: 100%;
   height: 200px;
   border: 2PX solid green;
+  line-height: 1.5;
 
 }
 
 .cv-summary > h3{
+  font-size: 1.5rem;
   margin-bottom:0.5EM ;
 }
 
@@ -35,13 +38,15 @@
  gap: 0.2em;
 }
 
+
+
 .project-card-container{
   display: flex;
   flex-wrap: wrap;
   border: 2px solid magenta;
   gap: 0.5em;
   justify-content: space-evenly;
-
+  margin: 2em 0 ;
   
   
 }
@@ -50,25 +55,34 @@
   background-color: #fff;
   border-radius: 10px;
   border: 1px solid orange;
-flex-basis: 150px;
-flex-grow: 1;
- max-width: 300px;
+  flex-basis: 150px;
+  flex-grow: 1;
+  max-width: 300px;
   margin: 0.2em;
   display: flex;
   flex-direction: column;
   align-items: center;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.project-card h3{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-bottom: 0.5em;
 }
 
 .project-card>img{
   border-radius: 10px 10px 0 0;
   opacity: 0.5;
-
+  margin-bottom: 0.5em;
   width: 100%;
 }
 
 .project-card>button{
+  font-size: 0.8rem;
   align-self: flex-end;
-  margin: 0.5em;
+  margin: 0.8em 0.5em;
   padding: 0.2em 0.5em;
   border: none;
   background-color: #14213D;

@@ -5,9 +5,10 @@
 }
 
 body{
+  font-family: "work sans", sans-serif;
   background-color: #E5E5E5;
 }
-
+/* Header and menu */
 .menu-container{
   background-color: #FCA311;
   height: 4rem;
@@ -25,7 +26,7 @@ body{
  
   
   flex-grow: 1;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   padding: 0.2em 0;
   text-align: center;
 }
@@ -34,4 +35,26 @@ body{
   color: white;
   padding: 0.3em 0.3em;
   text-decoration: none;
+}
+
+
+/* footer and links */
+footer{
+  background-color: #FCA311;
+  color: white;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer span{
+  font-size: 1.7rem;
+  color: white;
+
+}
+
+footer a:visited{
+  color: white;
+  
 }
