@@ -1,3 +1,5 @@
+/* sidebar section mobile */
+
 .container{
   border: 2px solid green;
   display: grid;
@@ -52,4 +54,30 @@ h4{
   padding-left: 0.3em;
   background-color: #FCA311 ;
   color: #fff;
+}
+
+/* main section */
+main{
+  line-height: 1.5;
+}
+
+.education-list-item{
+  font-weight: 900;
+  font-size: 1.1rem;
+  
+}
+
+.sublist{
+  list-style: none;
+  padding-left: 0.5em;
+}
+
+.bold-sublist{
+  font-weight: 700;
+}
+
+.sub-sublist{
+  font-weight: 400;
+padding-left: 0.5em;
+list-style: none;
 }
