@@ -29,35 +29,40 @@
         </ul>
       </nav>
     </header>
-    <main class="container">
-      <sidebar class="personal-summary">
+    <div class="container">
+      <div class="personal-summary">
         <!-- small profile pic here -->
         <div class="image-container">
           <img src="https://picsum.photos/200/300" alt="A picture of me" />
         </div>
         <h4>Personal information</h4>
         <ul class="personal-info-container">
-          <li>Address</li>
-          <ul class="personal-info-items">
-            <li>Tröskaregatan 5</li>
-            <li>58333 Linköping</li>
-            <li>Sweden</li>
-          </ul>
-
-          <li>Contact</li>
-          <ul class="personal-info-items">
-            <li>Phone: +46 70 86 18 948</li>
-            <li>
-              Email:
-              <a href="mailto:alexander.kuiper@chasacademy.se">
-                alexander.kuiper@chasacademy.se</a
-              >
-            </li>
-          </ul>
-          <li>Date of birth</li>
-          <ul class="personal-info-items">
-            <li>08-Nov-1990</li>
-          </ul>
+          <li>
+            Address
+            <ul class="personal-info-items">
+              <li>Tröskaregatan 5</li>
+              <li>58333 Linköping</li>
+              <li>Sweden</li>
+            </ul>
+          </li>
+          <li>
+            Contact
+            <ul class="personal-info-items">
+              <li>Phone: +46 70 86 18 948</li>
+              <li>
+                Email:
+                <a href="mailto:alexander.kuiper@chasacademy.se">
+                  alexander.kuiper@chasacademy.se</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            Date of birth
+            <ul class="personal-info-items">
+              <li>08-Nov-1990</li>
+            </ul>
+          </li>
         </ul>
 
         <h4>Languages</h4>
@@ -79,8 +84,8 @@
           <li>Reliable</li>
           <li>Accountable</li>
         </ul>
-      </sidebar>
-      <section>
+      </div>
+      <main class="cv">
         <h1>Alexander Kuiper</h1>
         <h4>My goals</h4>
         <p>
@@ -94,51 +99,62 @@
         <ul class="education-list">
           <li class="education-list-item list-item">
             Primary education in the Netherlands (2009-2012)
+
+            <ul class="sublist">
+              <li>Dutch primary education</li>
+              <li>Secondary Education, Medical Technician / Netherlands</li>
+              <li>
+                Training to become a trained medical technician <br />
+                <i>(Cancelled due to injury and move to Sweden)</i>
+              </li>
+            </ul>
           </li>
-          <ul class="sublist">
-            <li>Dutch primary education</li>
-            <li>Secondary Education, Medical Technician / Netherlands</li>
-            <li>
-              Training to become a trained medical technician <br />
-              <i>(Cancelled due to injury and move to Sweden)</i>
-            </li>
-          </ul>
           <li class="education-list-item list-item">
             SFI / Komvux, Norrköping (2015-2018)
           </li>
           <li class="education-list-item list-item">
             Basic eligibility for Reell kompetens / Komvux, Norrköping
             (2015-2018)
+
+            <ul class="sublist">
+              <li>Social studies 1b</li>
+              <li>Swedish as a second language 1-3</li>
+              <li>English 5-6</li>
+              <li>Maths 1c-4</li>
+              <li>Chemisty 1</li>
+              <li>Physics 1-2</li>
+            </ul>
           </li>
-          <ul class="sublist">
-            <li>Social studies 1b</li>
-            <li>Swedish as a second language 1-3</li>
-            <li>English 5-6</li>
-            <li>Maths 1c-4</li>
-            <li>Chemisty 1</li>
-            <li>Physics 1-2</li>
-          </ul>
           <li class="education-list-item list-item">
             Mixed courses programming+economics / BTH, Linnaeus University,
             Karlskrona + Distance learning
+
+            <ul class="sublist bold-sublist">
+              <li>
+                BTH
+                <ul class="sub-sublist">
+                  <li>Mathematical problem solving 4 credits - G</li>
+                  <li>Physics Basic Course 6 credits - G</li>
+                  <li>Basics in Game Development 8 credits - G</li>
+                  <li>
+                    Programming and Problem Solving with Python 6 credits - G
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Linnaeus University
+                <ul class="sub-sublist">
+                  <li>
+                    Basic Mathematics for Computer Scientists 7.5 credits - B
+                  </li>
+                  <li>Introductory Programming 7.5 credits - B</li>
+                  <li>Technology Communication 7.5 credits - A</li>
+                  <li>Computer Security 7.5 credits - C</li>
+                  <li>Economics - Microeconomics 15 credits - D</li>
+                </ul>
+              </li>
+            </ul>
           </li>
-          <ul class="sublist bold-sublist">
-            <li>BTH</li>
-            <ul class="sub-sublist">
-              <li>Mathematical problem solving 4 credits - G</li>
-              <li>Physics Basic Course 6 credits - G</li>
-              <li>Basics in Game Development 8 credits - G</li>
-              <li>Programming and Problem Solving with Python 6 credits - G</li>
-            </ul>
-            <li>Linnaeus University</li>
-            <ul class="sub-sublist">
-              <li>Basic Mathematics for Computer Scientists 7.5 credits - B</li>
-              <li>Introductory Programming 7.5 credits - B</li>
-              <li>Technology Communication 7.5 credits - A</li>
-              <li>Computer Security 7.5 credits - C</li>
-              <li>Economics - Microeconomics 15 credits - D</li>
-            </ul>
-          </ul>
         </ul>
         <h4>Experience</h4>
         <ul>
@@ -181,8 +197,8 @@
           analyse the players' abilities and performance to enchance the guild's
           overall performance
         </p>
-      </section>
-    </main>
+      </main>
+    </div>
     <footer>
       <a href="https://github.com/Regni"><span class="fab fa-github"></span></a>
       <a href="mailto:alexander.kuiper@chasacademy.se"

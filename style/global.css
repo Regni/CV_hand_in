@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+main{
+  line-height: 1.5;
+}
+
 body{
   font-family: "work sans", sans-serif;
   background-color: #E5E5E5;
