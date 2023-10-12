@@ -7,14 +7,16 @@
 
 
 .img-container{
+  
   width: 100%;
   border: 2px solid red;
-  
+  padding: 0;
 }
 
 .portrait{
+  display: block;
   width: 100%;
-
+  border-radius: 10px;
 }
 
 .cv-summary{
@@ -26,6 +28,7 @@
   line-height: 1.5;
   margin-bottom: 2em;
   padding: 1em 0;
+  border-radius: 10px;
 }
 
 .cv-summary > h3{
@@ -91,4 +94,20 @@
   background-color: #14213D;
   color: white;
   border-top-right-radius: 10px;
+}
+
+@media (min-width:750px) {
+  .portrait-cv-container{
+    flex-direction: row;
+   border: 2px solid orange;
+   gap: 10px;
+  }
+
+  .cv-summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
+
 }
