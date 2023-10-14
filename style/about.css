@@ -113,7 +113,7 @@ list-style: none;
  .cv{
     grid-column: 2 / span 3;
     grid-row: 1;
-    margin: 0;
+    margin: 0 1em;
   }
 
  .cv>p, .cv>ul {
@@ -126,6 +126,7 @@ list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin: 0 0 0 1em;
   }
   .personal-summary a {
     padding: 0 0.4em 0 0;
