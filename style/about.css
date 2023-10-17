@@ -31,6 +31,11 @@ justify-content: center;
 border-radius: 50%;
 }
 
+.email{
+  color: white;
+  line-height: 1.2;
+}
+
 .personal-info-container{
 
   font-weight: 900;

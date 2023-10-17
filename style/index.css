@@ -2,14 +2,11 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  
 }
 
 
 .img-container{
-  
   width: 100%;
-  border: 2px solid red;
   padding: 0;
 }
 
@@ -24,7 +21,6 @@
   background-color: #fff;
   text-align: center;
   width: 100%;
-  border: 2PX solid green;
   line-height: 1.5;
   padding: 1em 0;
   border-radius: 10px;
@@ -53,15 +49,12 @@
   gap: 0.5em;
   justify-content: space-evenly;
   margin: 2em 0 ;
-  
-  
 }
 
 .project-card{
   background-color: #fff;
   border-radius: 10px;
-  border: 1px solid orange;
-  flex-basis: 150px;
+  flex-basis: 200px;
   flex-grow: 1;
   max-width: 300px;
   margin: 0.2em;
@@ -102,16 +95,16 @@
   cursor:pointer;
 }
 
-.project-card:focus {
+.project-card:active{
   scale: 1.1;
   opacity: 1;
+ 
 }
 
 @media (min-width:750px) {
   .portrait-cv-container{
     flex-direction: row;
-   border: 2px solid orange;
-   gap: 10px;
+    gap: 10px;
     margin: 0 1em;
   }
 
@@ -125,6 +118,9 @@
     margin: 1.5em 1em 1.5em 1em;
   }
 
+  .project-card{
+    opacity: 0.5;
+  }
   .project-card:hover{
     scale: 1.1;
     opacity: 1;
