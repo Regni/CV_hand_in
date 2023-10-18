@@ -77,11 +77,14 @@ h4{
   color: #fff;
 }
 
-
+.description{
+  padding-left: 0.5em;
+}
 
 .list-item{
   font-weight: 900;
   font-size: 1.1rem;
+  padding-left: 0.3em;
   
 }
 
